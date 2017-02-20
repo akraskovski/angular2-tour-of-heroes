@@ -4,6 +4,5 @@ var Hero = (function () {
     }
     return Hero;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = Hero;
+exports.Hero = Hero;
 //# sourceMappingURL=hero.js.map
