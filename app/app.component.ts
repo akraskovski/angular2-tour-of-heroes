@@ -8,12 +8,12 @@ import {HeroService} from "./hero.service";
     styleUrls: ['app/app.component.css'],
     providers: [HeroService]
 })
-export   class AppComponent implements OnInit{
-    title: string = 'Tour of heroes';
+export class AppComponent implements OnInit {
     selectedHero: Hero;
     heroes: Hero[];
 
-    constructor(private heroService: HeroService) { }
+    constructor(private heroService: HeroService) {
+    }
 
     getHeroes(): void {
         this.heroService.getHeroes().then(heroes => this.heroes = heroes);

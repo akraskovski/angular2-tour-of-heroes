@@ -13,7 +13,6 @@ var hero_service_1 = require("./hero.service");
 var AppComponent = (function () {
     function AppComponent(heroService) {
         this.heroService = heroService;
-        this.title = 'Tour of heroes';
     }
     AppComponent.prototype.getHeroes = function () {
         var _this = this;
