@@ -2,7 +2,7 @@
   "name": "angular2-tour-of-heroes",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc -p src/",
+    "build": "tsc -p src/ -w",
     "serve": "lite-server",
     "start": "concurrently \"npm run build\" \"npm run serve\""
   },
@@ -10,15 +10,20 @@
   "dependencies": {
     "@angular/common": "~4.0.0",
     "@angular/compiler": "~4.0.0",
+    "@angular/compiler-cli": "~4.0.0",
     "@angular/core": "~4.0.0",
     "@angular/forms": "~4.0.0",
     "@angular/http": "~4.0.0",
     "@angular/platform-browser": "~4.0.0",
     "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/platform-server": "~4.0.0",
     "@angular/router": "~4.0.0",
-    "systemjs": "0.19.40",
+    "@angular/tsc-wrapped": "~4.0.0",
+    "@angular/upgrade": "~4.0.0",
+    "angular-in-memory-web-api": "~0.3.1",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
+    "systemjs": "0.19.39",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
