@@ -2,7 +2,7 @@
   "name": "angular2-tour-of-heroes",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc -p src/ -w",
+    "build": "tsc -p src/",
     "serve": "lite-server",
     "start": "concurrently \"npm run build\" \"npm run serve\""
   },
